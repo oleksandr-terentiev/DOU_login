@@ -1,0 +1,44 @@
+{
+   "FIREFOX": {
+				"caps": {
+						  "human": "WebDriver on Firefox",
+						  "browser_version": "40.0",
+						  "browserName": "firefox"
+						},
+				"url": "http://dou.ua/",
+				"server": "http://localhost:4444/wd/hub"
+   },
+   "OPERA": {
+	   "caps": {
+		   "human": "WebDriver on Opera",
+		   "browser_version": "33.0",
+		   "browserName": "opera",
+           "operaOptions": {
+			   				"binary":  "/usr/lib/x86_64-linux-gnu/opera/opera"
+		    			   }
+	   },
+	   "url": "http://dou.ua/",
+	   "server": "http://localhost:9519"
+   },
+   "ANDROID": {
+						"caps": {
+									"platformName": "Android",
+									"platformVersion": "5.0.2",
+									"deviceName": "LGD724e6026273",
+									"appPackage": "com.android.chrome",
+									"appActivity": "com.android.chrome.Main",
+									"browserName": "Chrome"
+								},
+						"url":"http://dou.ua/",
+						"server":"http://localhost:4723/wd/hub"
+	},
+   "CHROME": {
+				"caps": {
+						  "human": "WebDriver on Chrome",
+						  "browser_version": "46.0",
+						  "browserName": "chrome"
+						},
+				"url": "http://dou.ua/",
+				"server": "http://localhost:9517"
+   }
+}
